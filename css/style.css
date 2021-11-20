@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.clr{
+    clear:both;
+}
+
+full-wrapper{
+    width: 100%;
+}
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* font-family: 'Oswald', sans-serif; */
+
+/* =================
+    common css ends
+===================*/ 
+
+@font-face {
+    font-family: 'open-reg';
+    src: url(../webfonts/opensans/OpenSans_Condensed-Regular.ttf);
+    line-height: 32px;
+    color: #e7e7e7;
+    text-transform: capitalize;
+}
+
+/* =====================
+    font impot css ends
+=====================*/
+
+.heading .heading-line{
+    position: relative;
+    left: 50%;
+    bottom: 2px;
+}
+.heading{
+    position: absolute;
+    /* left: 50%;  */
+    bottom: 10%;
+}
+.heading h3{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500px;
+    font-size: 24px;
+    color: #353535;
+    text-align: center;
+} 
+/* .heading .heading-line{
+    position: absolute;
+}*/
+
+    .heading .heading-line{
+    position: absolute;
+}
+/*.heading .line{
+    background: #0872b9;
+    display: inline-block;
+    height: 1px;
+} */
+.heading .line{
+    background: #0872b9;
+    display: inline-block;
+    height: 1px;
+}
+.heading .line1{
+    width: 47px;
+} 
+.heading .line2{
+    width: 3px;
+}
+.heading .line3{
+    width: 2px;
+}
+.heading .line4{
+    width: 1px;
+} 
+
+
+/* =====================
+    font impot css ends
+=====================*/
+
+.header-bg{
+    background: #0872b9;
+    height: 32px;
+} 
+
+.header-bg .header{
+    height: 32px;
+}
+
+.header-bg .header .header-text{
+    height: 32px;
+    width: 140px;
+    float: left;
+}
+
+.header-bg .header .header-text p{
+    font-family: 'open-reg';
+    font-size: 20px;
+}
+
+
+.header-bg .header .header-social{
+    width: 800px;
+    height: 32px;
+    float: left;
+}
+
+.header-bg .header .header-social ul{
+    float: right;
+}
+.header-bg .header .header-social ul li{
+    float: right;
+}
+
+.header-bg .header .header-social ul li a i{
+    font-size: 14px;
+    line-height: 32px;
+    margin-left: 24px;
+    color: #e7e7e7;
+    transition: all linear .4s;
+}
+.header-bg .header .header-social ul li a i:hover{
+    color: #353535
+}
+
+
+/* ==================
+    header css ends
+=====================*/
+
+.menu-bg{
+    height: 80px;
+}
+
+.menu{
+    height: 80px;
+}
+
+.menu-bg .menu .logo{
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+.menu-bg .menu .logo a img{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.menu-bg .menu .menu-list{
+    height: 80px;
+    width: 860px;
+    float: left;
+}
+
+.menu-bg .menu .menu-list ul{
+    float: right;
+}
+
+.menu-bg .menu .menu-list ul li{
+    float: left;
+}
+
+.menu-bg .menu .menu-list ul li a{
+    line-height: 80px;
+    font-family: 'open-reg';
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #353535;
+    transition: all linear 0.4s;
+    padding-left: 16px;
+}
+
+.menu-bg .menu .menu-list ul li a:hover{
+    color: #0872b9;
+}
+/* =====================
+    menu css ends
+=====================*/
+
+.banner-bg{
+    height: 400px;
+    background: url(../images/thu.png) no-repeat center /cover;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-bg::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner-bg .banner{
+    height: 400px;
+    text-align: right;
+}
+
+
+.banner-bg .banner h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 78px;
+}
+
+
+.banner-bg .banner h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: -10px;
+}
+
+.banner-bg .banner p{
+    font-family: 'open-reg';
+    font-style: 13px;
+    color: #fff;
+    line-height: 24px;
+    padding-left: 480px;
+    padding-top: 10px;
+}
+
+.banner-bg .banner a{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 31px;
+    padding: 0 16px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    transition: all linear .4s;
+}
+
+.banner-bg .banner a:hover{
+    border-color: #0872b9;
+}
+
+.banner-bg .banner a::before{
+    content: '';
+    width: 0%;
+    height: 100%;
+    background-color: #0872b9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;    
+    transition: all linear .4s;
+}
+
+.banner-bg .banner a:hover::before{
+    width: 100%;
+}
+
+.banner-bg .banner a:last-of-type{
+    margin-left: 16px;
+}
+/* =====================
+    banner css ends
+=====================*/
+
+
+.service-bg{
+    height: 260px;
+    background: #d8d8d8;
+}
+
+.service-bg .service{
+    height: 260px;
+    background: #977171;
+}
+
+.service-bg .service .service-heading{
+    height: 90px;
+    background: #ddd350;
+}
+
+.service-bg .service .service-content{
+    height: 170px;
+    background: #55f096;
+}
+/* =====================
+    service css ends
+=====================*/
